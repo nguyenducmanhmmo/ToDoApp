@@ -1,0 +1,15 @@
+<!-- submits new todos using 'state' ngModel, with two-way binding 'bannana in a box' tek -->
+<div id="editor" class="edit {{( display === true ? 'on' : '' )}}">
+    <form (submit)="editTodoApi(inputTodo)">
+      <input 
+        type="text" 
+        name="inputTodo" 
+        class="todo-input"
+        placeholder="Edit todo..." 
+              [(ngModel)]="inputTodo"
+      >
+      <div class="edit-buttons">
+        <input class="todo-submit" type="submit" value="Save" />
+      </div>
+    </form>
+  </div>

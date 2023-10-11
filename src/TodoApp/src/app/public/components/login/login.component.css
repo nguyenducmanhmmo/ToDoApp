@@ -1,0 +1,35 @@
+.login {
+    appearance: none;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+	background: none;
+	background-color: #6c429c;
+	color: #FFF;
+	padding: 10px 30px;
+	font-weight: 700;
+	transition: all 0.2s ease-in-out;
+}
+
+.login-input {
+	display: block;
+	width: 100%;
+	padding: 10px 15px;
+	margin-left: -15px;
+	appearance: none;
+	border: none;
+	border-radius: 3px;
+	background-color: #F3F3F3;
+	margin-top: 15px;
+	font-size: 20px;
+	outline: none;
+	font-family: 'Shadows Into Light', Arial, sans-serif;
+}
+
+.login-button {
+    margin-top: 10px;
+    display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	align-content: center;
+}

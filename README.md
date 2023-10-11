@@ -5,7 +5,7 @@ This project consists of a ToDo Web API created with the .NET Cor 7 And Angular 
 
 The project infrastructure is show in the next picture:
 
-![Architecture](../OrientTodoApp/pictures/Architecture.png?raw=true "Architecture")
+![Architecture](./pictures/Architecture.png?raw=true "Architecture")
 
 
 # How to use it
@@ -128,7 +128,7 @@ ng serve
 ## 5. KeyVaults
 If use want to use azure key vaults add key vault configuration inside appsetting.json and add access policy for the application
 
-![KeyVaults](../OrientTodoApp/pictures/key_vault_access_policies.png?raw=true "KeyVaults")
+![KeyVaults](./pictures/key_vault_access_policies.png?raw=true "KeyVaults")
 
 
 ## 6. Output
@@ -136,13 +136,13 @@ And here's how it looks like
 
 Login Screen try user01/user01 or user02/user02
 
-![LoginScreen](../OrientTodoApp/pictures/Login_Screen.png?raw=true "LoginScreen")
+![LoginScreen](./pictures/Login_Screen.png?raw=true "LoginScreen")
 
 Todo Screen
-![TodoScreen](../OrientTodoApp/pictures/Todo_Screen.png?raw=true "TodoScreen")
+![TodoScreen](./pictures/Todo_Screen.png?raw=true "TodoScreen")
 
 ## 7. UnitTest
 Currently, this project only write unit test for Backend
 
-![UnitTest](../OrientTodoApp/pictures/UnitTest.png?raw=true "UnitTest")
+![UnitTest](./pictures//UnitTest.png?raw=true "UnitTest")
 

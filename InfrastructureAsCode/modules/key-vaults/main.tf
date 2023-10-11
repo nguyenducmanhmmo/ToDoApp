@@ -20,4 +20,5 @@ resource "azurerm_key_vault_secret" "todoapp" {
   name         = "DbPassword${var.random}"
   value        = var.random_db_pass
   key_vault_id = azurerm_key_vault.todoapp.id
+  depends_on = [azurerm_key_vault_access_policy.todoapp]
 }

@@ -19,62 +19,62 @@ variable "sqlserver_name" {
 }
 
 variable "sqlserver_version" {
-  type        = string
-  sensitive   = true
-  nullable    = false
+  type      = string
+  sensitive = true
+  nullable  = false
 }
 
 variable "azurerm_mssql_firewall_rule_start_ip_address" {
-  type        = string
-  sensitive   = true
-  nullable    = false
+  type      = string
+  sensitive = true
+  nullable  = false
 }
 
 variable "azurerm_mssql_firewall_rule_end_ip_address" {
-  type        = string
-  sensitive   = true
-  nullable    = false
+  type      = string
+  sensitive = true
+  nullable  = false
 }
 
 variable "azurerm_mssql_database_collation" {
-  type        = string
-  sensitive   = true
-  nullable    = false
+  type      = string
+  sensitive = true
+  nullable  = false
 }
 
 variable "azurerm_mssql_database_sku" {
-  type        = string
-  nullable    = false
+  type     = string
+  nullable = false
 }
 
 variable "azurerm_key_vault_sku" {
-  type        = string
-  nullable    = false
+  type     = string
+  nullable = false
 }
 
 variable "azurerm_key_vault_access_policy_permissions" {
-  type        = list(any)
-  nullable    = false
+  type     = list(any)
+  nullable = false
 }
 
 variable "azurerm_service_plan_sku" {
-  type        = string
-  nullable    = false
+  type     = string
+  nullable = false
 }
 
 variable "azurerm_service_plan_os_type" {
-  type        = string
-  nullable    = false
+  type     = string
+  nullable = false
 }
 
 variable "dotnet_version" {
-  type        = string
-  nullable    = false
+  type     = string
+  nullable = false
 }
 
 variable "node_version" {
-  type        = string
-  nullable    = false
+  type     = string
+  nullable = false
 }
 
 variable "sqlserver_db_name" {
